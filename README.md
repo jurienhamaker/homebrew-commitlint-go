@@ -2,22 +2,8 @@
 
 Homebrew formula for installing commitlint-go.
 
-## How To Use
-
-Add repository:
+## How To Install [Commitlint](https://github.com/jurienhamaker/commitlint):
 
 ```
-brew tap jurienhamaker/commitlint-go
-```
-
-Install [Commitlint](https://github.com/jurienhamaker/commitlint):
-
-```
-brew install commitlint-go
-```
-
-Upgrade commitlint-go to the latest version:
-
-```
-brew upgrade commitlint-go
+brew install jurienhamaker/commitlint-go/commitlint-go
 ```
