@@ -13,22 +13,22 @@ cask "commitlint-go" do
   on_macos do
     on_intel do
       url "https://github.com/jurienhamaker/commitlint/releases/download/v1.0.0/commitlint_Darwin_x86_64.tar.gz"
-      sha256 "1db9664cd5856ad27ee259db8e9a99e829cd39265ffab6bd318b8532c1021c95"
+      sha256 "cc5bd856ed2541eed924038e11ae6ff5e8a0d6e09d0a169667d7e11c9625f036"
     end
     on_arm do
       url "https://github.com/jurienhamaker/commitlint/releases/download/v1.0.0/commitlint_Darwin_arm64.tar.gz"
-      sha256 "bb4905b8a7f363f410c16a078eeeb52f6aba5a2391be71dd4e0e68b1be0b4bdd"
+      sha256 "39b3c6634fc4d86d697d8f024045959d4c44a9a86cb63ed52cdaaf04d1b1aa1e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jurienhamaker/commitlint/releases/download/v1.0.0/commitlint_Linux_x86_64.tar.gz"
-      sha256 "588f5491deae29ff7489fff9e9842d63f7845fd9c9d391233125f35416757f93"
+      sha256 "0013f7ccf2d477f75a983e52afe46cc369d4628b58823a4268b75c2afdf73208"
     end
     on_arm do
       url "https://github.com/jurienhamaker/commitlint/releases/download/v1.0.0/commitlint_Linux_arm64.tar.gz"
-      sha256 "639801bd6a7425772b72820e517459ff5c79752bd1060ca956f0a30cbe6be505"
+      sha256 "8dda7c983be4ed8c83821dabd7d5eedfa40b8155a683c39d7ced9f4722f5c409"
     end
   end
 
