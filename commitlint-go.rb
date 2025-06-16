@@ -10,7 +10,7 @@ class CommitlintGo < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/jurienhamaker/commitlint/releases/download/v1.0.0/commitlint_Darwin_x86_64.tar.gz"
-      sha256 "cea00623f8c635d03deed7dc8a1220b7489a64f478352ffbf27ca1ec996a2513"
+      sha256 "fff5215ba0eba370c4ada577f6935878aa050c3c05cfb93bf56e12765e57bc99"
 
       def install
         bin.install "commitlint"
@@ -18,7 +18,7 @@ class CommitlintGo < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/jurienhamaker/commitlint/releases/download/v1.0.0/commitlint_Darwin_arm64.tar.gz"
-      sha256 "f5cd4ab3f5708f3e49e824ccb436678e8a02d7e47fa189a5ded079d4d4e4dae6"
+      sha256 "cd9c0cbcaf57b2ebe67e4293841595d232b967a8cd54d3975aa2a1af85187572"
 
       def install
         bin.install "commitlint"
@@ -29,14 +29,14 @@ class CommitlintGo < Formula
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
       url "https://github.com/jurienhamaker/commitlint/releases/download/v1.0.0/commitlint_Linux_x86_64.tar.gz"
-      sha256 "f85ad2279f0ea42e1ab38edc1371892a501cfdb39a4e348e5a017681cdc48c44"
+      sha256 "5ee5c66ba2a847cde74dc6c4166dd037caf39289db0dc76961e099880735a610"
       def install
         bin.install "commitlint"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
       url "https://github.com/jurienhamaker/commitlint/releases/download/v1.0.0/commitlint_Linux_arm64.tar.gz"
-      sha256 "1500de8483bd3a07d7b5684293e686d28dc20769f5bd679de44c3c0e1261d45c"
+      sha256 "bffae4864b7808e25c7ba7643c7310cda918b4c02b7c286ccf95217a8cce8839"
       def install
         bin.install "commitlint"
       end
