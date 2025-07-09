@@ -2,7 +2,7 @@
 cask "commitlint-go" do
   desc "A lightweight, fast, and cross-platform CLI tool for linting Git commit messages."
   homepage "https://github.com/jurienhamaker/homebrew-commitlint-go"
-  version "1.8.2"
+  version "1.9.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "commitlint-go" do
 
   on_macos do
     on_intel do
-      url "https://github.com/jurienhamaker/commitlint/releases/download/v1.8.2/commitlint_Darwin_x86_64.tar.gz"
-      sha256 "32a8f97883c8f73a11e5aa148a8316676e39a2aaaaeb357a966e47ceed27fc26"
+      url "https://github.com/jurienhamaker/commitlint/releases/download/v1.9.0/commitlint_Darwin_x86_64.tar.gz"
+      sha256 "1f12c6311179cddce6f5188032f5c7a39539d15cfa89fb276f3be94bf9bfb1cc"
     end
     on_arm do
-      url "https://github.com/jurienhamaker/commitlint/releases/download/v1.8.2/commitlint_Darwin_arm64.tar.gz"
-      sha256 "ce2a378da96ae0670dbdd7da3bb005de5acb02070a3c6a76cef12b04d4da9029"
+      url "https://github.com/jurienhamaker/commitlint/releases/download/v1.9.0/commitlint_Darwin_arm64.tar.gz"
+      sha256 "ffb7721bce34c5baad44bd2a09132b08af3b37f337c5e57e8008cef78c6af835"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jurienhamaker/commitlint/releases/download/v1.8.2/commitlint_Linux_x86_64.tar.gz"
-      sha256 "ea4e02319b5c2580ab3ae1aed44f725f38644785fbfc478fad83af3e4d4cca69"
+      url "https://github.com/jurienhamaker/commitlint/releases/download/v1.9.0/commitlint_Linux_x86_64.tar.gz"
+      sha256 "5abc49d4095a5da57fbffe51a29bd4132f281b55ecfb60168cf36c515223beb1"
     end
     on_arm do
-      url "https://github.com/jurienhamaker/commitlint/releases/download/v1.8.2/commitlint_Linux_arm64.tar.gz"
-      sha256 "a2a36b9d33d3727c088733226acfba9158a677b251d5a5ea431b6f4d5cff9522"
+      url "https://github.com/jurienhamaker/commitlint/releases/download/v1.9.0/commitlint_Linux_arm64.tar.gz"
+      sha256 "f56d6b635c1dfa4bbcbb6b29c1700661cf5125e50d3592faaa87f89f8cd8395c"
     end
   end
 
